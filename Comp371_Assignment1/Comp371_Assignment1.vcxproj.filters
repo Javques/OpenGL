@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\VertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\GLErrorManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\IndexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\VertexArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="screen.vert">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="screen.frag">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="blur.vert">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="blur.frag">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="starfield.frag">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="starfield.vert">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cube80s.frag">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cube80s.vert">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLShader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\VertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\VertexBufferLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\GLErrorManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\IndexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\VertexArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="res\textures\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="flat.vert">
+      <Filter>Source Files</Filter>
+    </FxCompile>
+    <FxCompile Include="flat.frag">
+      <Filter>Source Files</Filter>
+    </FxCompile>
+    <FxCompile Include="skybox.frag">
+      <Filter>Source Files</Filter>
+    </FxCompile>
+    <FxCompile Include="skybox.vert">
+      <Filter>Source Files</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shaders\Basic.shader">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="phong.frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="phong.vert">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="light_cube.frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="light_cube.vert">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="depth.frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="depth.vert">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="depth.gs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="res\shaders\model3D.frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="res\shaders\model3D.vert">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Letter.frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Letter.vert">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="grass.frag" />
+    <None Include="transparent.frag" />
+    <None Include="transparent.vert" />
+    <None Include="res\models\palm\10446_Palm_Tree_v1_max2010_iteration-2.mtl" />
+    <None Include="grass.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\textures\gold_wall.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\Satellite.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\silver.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\models\palm\10446_Palm_Tree_v1_Diffuse.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\blending_transparent_window.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\container_steel.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\grass.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\soil.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\minecraft_grass.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Fonts\arial.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+    <Font Include="Fonts\arialbd.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+    <Font Include="Fonts\arialbi.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+    <Font Include="Fonts\ariali.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+    <Font Include="Fonts\ariblk.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+</Project>

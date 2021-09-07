@@ -1,0 +1,57 @@
+glm::vec3 cubePositions[] = {
+    glm::vec3(0.0f,  0.0f,  0.0f), 
+    glm::vec3(0.0f,  1.0f, 0.0f),  
+    glm::vec3(0.0f,  1.0f, 0.0f),  
+
+
+    glm::vec3(1.0f,  0.0f, 0.0f),
+    glm::vec3(1.0f,  0.0f, 0.0f), 
+    
+    glm::vec3(-3.0f,  0.0f, 0.0f), 
+    glm::vec3(-1.0f,  0.0f, 0.0f), 
+    
+    glm::vec3(2.0f,  0.0f, 1.0f), 
+    glm::vec3(0.0f,  0.0f, -2.0f), 
+    };
+    
+    glm::vec3 wallPositions[] = {
+
+        //Bottom Layer - Layer 0
+        glm::vec3(0.0f, 0.0f, 0.0f),
+        glm::vec3(1.0f, 0.0f, 0.0f),
+        glm::vec3(1.0f, 0.0f, 0.0f),
+        glm::vec3(1.0f, 0.0f, 0.0f),
+        glm::vec3(1.0f, 0.0f, 0.0f),
+        glm::vec3(1.0f, 0.0f, 0.0f),
+        glm::vec3(1.0f, 0.0f, 0.0f),
+        
+        //Layer 1
+        glm::vec3(0.0f, 1.0f, 0.0f),
+        glm::vec3(-1.0f, 0.0f, 0.0f),
+        glm::vec3(-1.0f, 0.0f, 0.0f),
+        glm::vec3(-2.0f, 0.0f, 0.0f),
+        glm::vec3(-1.0f, 0.0f, 0.0f),
+        glm::vec3(-1.0f, 0.0f, 0.0f),
+       
+        
+        //Layer 2
+        glm::vec3(0.0f, 1.0f, 0.0f),
+        glm::vec3(1.0f, 0.0f, 0.0f),
+        glm::vec3(1.0f, 0.0f, 0.0f),
+        glm::vec3(2.0f, 0.0f, 0.0f),
+        glm::vec3(1.0f, 0.0f, 0.0f),
+        glm::vec3(1.0f, 0.0f, 0.0f),
+        
+        //Layer 3
+        glm::vec3(0.0f, 1.0f, 0.0f),
+        glm::vec3(-6.0f, 0.0f, 0.0f),
+        
+        //Layer 4
+        glm::vec3(0.0f, 1.0f, 0.0f),
+        glm::vec3(1.0f, 0.0f, 0.0f),
+        glm::vec3(1.0f, 0.0f, 0.0f),
+        glm::vec3(1.0f, 0.0f, 0.0f),
+        glm::vec3(1.0f, 0.0f, 0.0f),
+        glm::vec3(1.0f, 0.0f, 0.0f),
+        glm::vec3(1.0f, 0.0f, 0.0f),
+    };
